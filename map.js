@@ -8,3 +8,14 @@ var people = ['Bob', 'Jen', 'James', 'Isolde'];
 // console.log(people);
 // > [ 'BOB', 'JEN', 'JAMES', 'ISOLDE' ]
 
+
+var capsPeople = people.map(function (people) {
+  return people.toUpperCase();
+});
+
+console.log(capsPeople);
+
+// // var caps = people.map(function (letters) {
+// //   return person.toUpperCase();
+// // });
+// console.log(cased);

@@ -25,6 +25,21 @@ var isCool = function(person) {
 	return person.coolnessScore > 20;
 }
 
+var coolPeople = people.filter(isCool)
+// console.log(people.coolnessScore);
+console.log(coolPeople);
+
+
+
+
+// var evenLengthNames = names.filter(isEven);
+// var oddLengthNames = names.filter(isOdd);
+//
+// console.log(evenLengthNames);
+// console.log(oddLengthNames);
+//
+//
+//
 // Example results:
 //
 // Bob is cool
